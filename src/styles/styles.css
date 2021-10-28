@@ -1,0 +1,143 @@
+body {
+  margin: 0px;
+}
+
+ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow-y: hidden;
+}
+
+.mainContainer > main {
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.mainContainer > footer {
+  background-color: rgb(255, 87, 87);
+  padding: 10px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: rgb(250, 246, 242);
+  border-bottom: 1px solid rgb(223, 193, 154);
+  box-shadow: 1px 1px rgb(167, 71, 71);
+}
+
+.navbara {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: rgb(250, 246, 242);
+  border-bottom: 1px solid rgb(223, 193, 154);
+  box-shadow: 1px 1px rgb(167, 71, 71);
+}
+
+.navbar > li {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 70px;
+}
+
+.botonGenerico {
+  border: 0px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-weight: bolder;
+}
+.botonGenerico:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.mainButton {
+  background-color: burlywood;
+  color: black;
+}
+
+.mainButton:hover {
+  box-shadow: 1px 1px burlywood;
+}
+
+.secondaryButton {
+  background-color: rgb(255, 87, 87);
+  color: black;
+}
+
+.secondaryButton:hover {
+  box-shadow: 1px 1px rgb(255, 87, 87);
+}
+
+.buscar {
+  background-color: white;
+  border: 1px solid burlywood;
+  padding: 4px;
+  border-radius: 8px;
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.buscar:focus-within {
+  border: 1px solid rgb(255, 87, 87);
+}
+
+.buscar > input {
+  outline: none;
+  border: 0px;
+}
+
+.iconoBusqueda:hover {
+  color: rgb(255, 87, 87);
+}
+
+.breedCardContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.breedCard {
+  margin: 10px;
+  background-color: burlywood;
+  box-shadow: 5px 10px 5px rgb(231, 231, 231);
+  border-radius: 10px;
+}
+
+.breedTitle {
+  color: black;
+  margin: 10px;
+  font-size: x-large;
+}
+
+.contenedorImagen {
+  width: 240px;
+  height: 350px;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.contenedorImagen:hover {
+  cursor: pointer;
+  transform: scale(1.02);
+}
+
+.contenedorImagen > img {
+  object-fit: cover;
+  width: 100%;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
